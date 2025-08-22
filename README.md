@@ -7,7 +7,10 @@ Interface React.js moderna e responsiva para o sistema de gerenciamento de usuá
 ### Pré-requisitos
 - **Node.js 22.18.0** (recomendado)
 - npm ou yarn
-- Backend rodando em `http://localhost:3001`
+- Frontend rodando em `http://localhost:3000`
+
+**Credenciais de Acesso**
+- **Admin**: `admin@spsgroup.com.br` / `1234`
 
 ### Instalação
 ```bash
@@ -100,8 +103,8 @@ REACT_APP_SERVER_URL=http://localhost:3001
 REACT_APP_DEBUG=false
 
 # Para desenvolvimento (opcional)
-REACT_APP_DEV_EMAIL=
-REACT_APP_DEV_PASSWORD=
+REACT_APP_DEV_EMAIL=admin@spsgroup.com.br
+REACT_APP_DEV_PASSWORD=1234
 
 # Para testes
 REACT_APP_TEST_PASSWORD=1234
